@@ -1,0 +1,106 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #181818;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  width: 350px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #AEB6BF;
+}
+.title span {
+  color: #AB47BC;
+}
+.content {
+  max-width: 1200px;
+  margin:  30px auto;
+}
+.todo {
+  width: 350px;
+  margin: 30px auto;
+}
+.form-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #90A4AE;
+}
+.form-todo input {
+  min-width: 285px;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  background: #34495E;
+  color: #BDC3C7;
+}
+.form-todo button {
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  background: #17202A;
+  color: #CFD8DC;
+  font-family: 'Open Sans';
+  transition: background .3s ease;
+}
+.form-todo button:hover {
+  background: #000;
+}
+
+.form-todo ::-webkit-input-placeholder {
+  color: #BDC3C7;
+}
+.form-todo ::-moz-placeholder {
+  color: #BDC3C7;
+}
+.todo-list {
+  margin-top: 15px;
+}
+.todo-list li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 20px 10px 8px;
+  background: #1C2833;
+  cursor: pointer;
+  animation: fadeIn cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
+}
+.todo-list li:hover {
+  background: #212121;
+}
+.todo-list .close {
+  font-style: normal;
+  font-size: 24px;
+  color: #7B7D7D;
+  cursor: pointer;
+  transition: color .3s ease;
+}
+.todo-list .close:hover {
+  color: #9C27B0;
+}
+.todo-list .info {
+  flex-grow: 1;
+}
+.todo-list .time {
+  font-size: 12px;
+  color: #90A4AE;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
