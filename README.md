@@ -1,3 +1,6 @@
+
+![react_todo](https://user-images.githubusercontent.com/98315242/207786431-a5cac2ca-5517-4797-a635-8b9a1db66789.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,6 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
